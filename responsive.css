@@ -1,0 +1,68 @@
+@media (max-width: 1100px) {
+  :root {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992.1px) {
+  :root {
+    font-size: 15px;
+  }
+
+  button.navbar-toggler i {
+    color: white !important;
+  }
+
+  .text-content {
+    width: 100%;
+  }
+
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0.5rem 0;
+  }
+}
+
+@media (max-width: 768.1px) {
+  :root {
+    font-size: 13px;
+  }
+
+  #home .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+@media (max-width: 576.1px) {
+  :root {
+    font-size: 11px;
+  }
+  .arrivals-sec .row.align-items-center{
+    display: flex;
+    justify-content: center;
+  } 
+  .arrivals-sec .card-banner {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  :root {
+    font-size: 10px;
+  }
+
+  #home .carousel-caption {
+    top: 45%;
+    transform: translateY(-60%);
+  }
+}
+
+@media (max-width: 350px) {
+  :root {
+    font-size: 9px;
+  }
+}
